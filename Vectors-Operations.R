@@ -22,7 +22,7 @@ names(expenses) <- months
 
 profit <- income - expenses
 
-tax_amt <- 0.30 * profit 
+tax_amt <- 0.30 * income 
 
 profit_after_tax <- profit - tax_amt
 names(profit_after_tax) <- months
